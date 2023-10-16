@@ -1,10 +1,11 @@
 import "./App.css";
+import Api from "./api/api";
 
 function App() {
   return (
-    <>
-      <h1>react</h1>
-    </>
+    <div>
+      <Api />
+    </div>
   );
 }
 
